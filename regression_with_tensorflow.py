@@ -49,11 +49,5 @@ model.fit(tf.expand_dims(x, axis=-1), y, epochs=5)
 
 model.predict([17.0])
 
-"""# Improving Our Model
 
-##We can improve our model by following methods:
-1. **creating a model** -> here we can add more layers,increase the number of hidden units,change activation function of each layer.
-2. **Compiling a model** -> here we might change the optimization function or perhaps **Learning Rate** of optimization function.
-3. **Fitting a Model** -> here we might fit model for more **epochs** or more data.
-"""
 
